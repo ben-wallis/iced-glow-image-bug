@@ -1,0 +1,7 @@
+[package]
+name = "iced-glow-image-bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.5.2", features = ["glow", "tokio", "debug", "image"] }
